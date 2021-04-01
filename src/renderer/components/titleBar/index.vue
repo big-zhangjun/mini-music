@@ -2,7 +2,7 @@
   <div class="my-title">
     <div class="logo">
       <span class="iconfont icon-wangyiyunyinle icon-logo"></span>
-      <span>网易云音乐</span>
+      <span class="title">网易云音乐</span>
     </div>
     <!-- 前进后退搜索 -->
     <basicTools />
@@ -27,7 +27,7 @@ export default {
 .my-title {
   height: 60px;
   width: 100%;
-  background-color: $--subject-color-pink;
+  background-color: $--subject-color-blue;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -36,12 +36,13 @@ export default {
   .logo {
     display: flex;
     align-items: center;
+    min-width: 116px;
     font-size: 14px;
     color: #fff;
     cursor: pointer;
     -webkit-app-region: no-drag;
     .icon-logo {
-      color: $--subject-color-pink;
+      color: $--subject-color-blue;
       background-color: #fff;
       width: 25px;
       height: 25px;
@@ -49,6 +50,9 @@ export default {
       line-height: 25px;
       border-radius: 50%;
       margin-right: 8px;
+    }
+    .title {
+      font-size: 16px;
     }
     span {
       display: block;

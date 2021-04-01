@@ -13,11 +13,25 @@
       "unicode_decimal": 58958
     },
     {
+      "icon_id": "4818167",
+      "name": "朋友",
+      "font_class": "pengyou",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
       "icon_id": "5075493",
       "name": "网易云音乐",
       "font_class": "music",
       "unicode": "e502",
       "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "10760051",
+      "name": "听歌识曲",
+      "font_class": "tinggeshiqu",
+      "unicode": "e626",
+      "unicode_decimal": 58918
     },
     {
       "icon_id": "11730688",
@@ -27,6 +41,13 @@
       "unicode_decimal": 58885
     },
     {
+      "icon_id": "13588928",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
       "icon_id": "14192743",
       "name": "关 闭",
       "font_class": "guanbi",
@@ -34,11 +55,32 @@
       "unicode_decimal": 58940
     },
     {
+      "icon_id": "15302116",
+      "name": "歌手",
+      "font_class": "geshou",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
       "icon_id": "16159785",
       "name": "网易云音乐",
       "font_class": "wangyiyunyinle",
       "unicode": "e503",
       "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "17118500",
+      "name": "排行",
+      "font_class": "paihang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "18788488",
+      "name": "发现",
+      "font_class": "faxian-copy",
+      "unicode": "e505",
+      "unicode_decimal": 58629
     },
     {
       "icon_id": "19237233",
@@ -53,6 +95,20 @@
       "font_class": "huanyuan",
       "unicode": "e765",
       "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "20095274",
+      "name": "直播 播放 摄像机 观看 面性",
+      "font_class": "zhibobofangshexiangjiguankanmianxing",
+      "unicode": "e518",
+      "unicode_decimal": 58648
+    },
+    {
+      "icon_id": "20375799",
+      "name": "视频 (3)",
+      "font_class": "shipin3",
+      "unicode": "e629",
+      "unicode_decimal": 58921
     }
   ]
 }

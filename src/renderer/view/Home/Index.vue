@@ -1,15 +1,18 @@
 <template>
-  <div></div>
+  <div>sasdfds s</div>
 </template>
 
 <script>
-import { remote } from 'electron';
+import { getBannerList } from '@/network/home';
 export default {
+  mounted() {
+    this.getBannerListFun()
+  },
   methods: {
-    minimizeWin() {
-      console.log("点击最小化")
-      remote.getCurrentWindow().minimize()
-    },
+    async getBannerListFun() {
+      const res = await getBannerList()
+      console.log(res)
+    }
   }
 }
 </script>

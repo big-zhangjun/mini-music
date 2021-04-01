@@ -10,7 +10,8 @@ import titleBar from './components/titleBar';
 export default {
   name: 'mini-music',
   components: {
-    titleBar
+    titleBar,
+
   }
 }
 </script>
