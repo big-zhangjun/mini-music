@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .menus {
-  width: 140px;
+  min-width: 140px;
   height: calc(100vh - 60px);
   overflow: hidden;
   border-right: 1px solid $--border-color-gray;

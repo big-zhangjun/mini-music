@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import titleBar from './components/titleBar';
+import titleBar from '@/components/project/titleBar';
 export default {
   name: 'mini-music',
   components: {

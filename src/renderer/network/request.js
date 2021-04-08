@@ -30,5 +30,14 @@ export default {
 			},
 			headers
 		})
+	},
+	post(url, params, headers = {}) {
+		return AJAX.get(url, {
+			params: {
+				...params
+			},
+			headers
+		})
 	}
 }
+

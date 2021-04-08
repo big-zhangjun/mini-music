@@ -6,11 +6,32 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "119209",
+      "name": "网易",
+      "font_class": "iconfontwangyi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1289418",
+      "name": "头像",
+      "font_class": "portrait",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
       "icon_id": "1786462",
       "name": "前进",
       "font_class": "qianjin",
       "unicode": "e64e",
       "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "2491094",
+      "name": "倒三角",
+      "font_class": "daosanjiao-",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
     },
     {
       "icon_id": "4818167",
@@ -23,8 +44,15 @@
       "icon_id": "5075493",
       "name": "网易云音乐",
       "font_class": "music",
-      "unicode": "e502",
-      "unicode_decimal": 58626
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "8907706",
+      "name": "prev",
+      "font_class": "prev",
+      "unicode": "e53f",
+      "unicode_decimal": 58687
     },
     {
       "icon_id": "10760051",
@@ -39,6 +67,13 @@
       "font_class": "zuidahua",
       "unicode": "e605",
       "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "12882342",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
     },
     {
       "icon_id": "13588928",
@@ -58,15 +93,29 @@
       "icon_id": "15302116",
       "name": "歌手",
       "font_class": "geshou",
-      "unicode": "e607",
-      "unicode_decimal": 58887
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "15940404",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e646",
+      "unicode_decimal": 58950
     },
     {
       "icon_id": "16159785",
       "name": "网易云音乐",
       "font_class": "wangyiyunyinle",
-      "unicode": "e503",
-      "unicode_decimal": 58627
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "16842350",
+      "name": "密 码",
+      "font_class": "mima1",
+      "unicode": "e501",
+      "unicode_decimal": 58625
     },
     {
       "icon_id": "17118500",
@@ -76,11 +125,18 @@
       "unicode_decimal": 58883
     },
     {
+      "icon_id": "18431857",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "18788488",
       "name": "发现",
       "font_class": "faxian-copy",
-      "unicode": "e505",
-      "unicode_decimal": 58629
+      "unicode": "e506",
+      "unicode_decimal": 58630
     },
     {
       "icon_id": "19237233",
@@ -90,11 +146,25 @@
       "unicode_decimal": 59037
     },
     {
+      "icon_id": "19446125",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "ea8c",
+      "unicode_decimal": 60044
+    },
+    {
       "icon_id": "19449914",
       "name": "还原",
       "font_class": "huanyuan",
       "unicode": "e765",
       "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "19784081",
+      "name": "next",
+      "font_class": "next",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
     },
     {
       "icon_id": "20095274",

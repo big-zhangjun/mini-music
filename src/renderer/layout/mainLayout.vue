@@ -1,12 +1,14 @@
 <template>
   <div class="layout">
     <menus />
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
 <script>
-import menus from '@/components/menus';
+import menus from '@/components/project/menus';
 
 export default {
   components: {

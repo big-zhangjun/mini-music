@@ -4,9 +4,9 @@ import { HOST } from './config'
 // 获取首页banner
 export const getBannerList = (data) => AJAX.get(`${HOST}/banner`, data)
 
-// 获取首页图标
-export const getDragonBall = (data) =>
-	AJAX.get(`${HOST}/homepage/dragon/ball`, data)
+// 发现
+export const getBlockPage = (data) =>
+	AJAX.get(`${HOST}/homepage/block/page`, data)
 
 // 获取推荐歌单
 export const getPersonalized = (data) => AJAX.get(`${HOST}/personalized`, data)

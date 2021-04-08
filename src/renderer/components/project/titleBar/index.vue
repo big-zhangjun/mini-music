@@ -1,24 +1,32 @@
 <template>
   <div class="my-title">
-    <div class="logo">
-      <span class="iconfont icon-wangyiyunyinle icon-logo"></span>
-      <span class="title">网易云音乐</span>
+    <div class="left">
+      <div class="logo">
+        <span class="iconfont icon-wangyiyunyinle icon-logo"></span>
+        <span class="title">网易云音乐</span>
+      </div>
+      <!-- 前进后退搜索 -->
+      <basicTools />
     </div>
-    <!-- 前进后退搜索 -->
-    <basicTools />
-    <!-- 操作客户端的 -->
-    <systemTools />
+    <div class="right">
+      <!-- 常用工具 -->
+      <commonTools />
+      <!-- 操作客户端的 -->
+      <systemTools />
+    </div>
   </div>
 </template>
 
 <script>
-import systemTools from "@/components/systemTools"
-import basicTools from "@/components/basicTools"
+import systemTools from "@/components/project/systemTools"
+import basicTools from "@/components/project/basicTools"
+import commonTools from "@/components/project/commonTools"
 
 export default {
   components: {
     systemTools,
-    basicTools
+    basicTools,
+    commonTools
   }
 }
 </script>
@@ -33,6 +41,12 @@ export default {
   box-sizing: border-box;
   padding: 0 20px;
   -webkit-app-region: drag;
+  justify-content: space-between;
+  .left,
+  .right {
+    display: flex;
+    align-items: center;
+  }
   .logo {
     display: flex;
     align-items: center;
